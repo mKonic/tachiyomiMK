@@ -23,7 +23,7 @@
     <string name="by_chapter_number">باب نمبر کے لحاظ سے</string>
     <string name="title">عنوان</string>
     <string name="scanlators">اسکین لیٹرز</string>
-    <string name="external_storage_permission_notice">TachiyomiJ2K کو ابواب ڈاؤن لوڈ کرنے، خودکار بیک اپ بنانے اور مقامی سیریز پڑھنے کے لیے Android 11 کی تمام فائلوں تک رسائی درکار ہے۔
+    <string name="external_storage_permission_notice">TachiyomiMK کو ابواب ڈاؤن لوڈ کرنے، خودکار بیک اپ بنانے اور مقامی سیریز پڑھنے کے لیے Android 11 کی تمام فائلوں تک رسائی درکار ہے۔
 \nاگلی اسکرین پر، \"تمام فائلوں کا نظم کرنے کے لیے رسائی کی اجازت دیں\" کو فعال کریں.</string>
     <string name="lock_with_biometrics">ان لاک کی ضرورت ہے</string>
     <string name="edit_categories">زمرے ترمیم کریں</string>
@@ -62,7 +62,7 @@
     <string name="confirm_category_deletion_message">اس زمرے کے اندراجات پہلے سے طے شدہ زمرے میں چلے جائیں گے۔</string>
     <string name="_already_in_queue">%1$s پہلے سے ہی قطار میں ہے</string>
     <string name="marked_as_read">پڑھنے کے طور پر نشان زد</string>
-    <string name="external_storage_download_notice">تاچیومی J2k کو ابواب ڈاؤن لوڈ کرنے کے لئے تمام فائلوں تک رسائی کی ضرورت ہے۔ یہاں ٹیپ کریں ، پھر \"تمام فائلوں کا انتظام کرنے کے لئے رسائی کی اجازت دیں\" کو فعال کریں۔</string>
+    <string name="external_storage_download_notice">تاچیومی MK کو ابواب ڈاؤن لوڈ کرنے کے لئے تمام فائلوں تک رسائی کی ضرورت ہے۔ یہاں ٹیپ کریں ، پھر \"تمام فائلوں کا انتظام کرنے کے لئے رسائی کی اجازت دیں\" کو فعال کریں۔</string>
     <string name="chapter_not_found">باب نہیں ملا</string>
     <string name="not_started">شروع نہیں کیا</string>
     <string name="all_chapters_read">تمام ابواب پڑھے</string>

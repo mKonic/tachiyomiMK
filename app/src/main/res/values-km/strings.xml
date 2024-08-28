@@ -119,7 +119,7 @@
     <string name="unpin">ឈប់ខ្ទាស់</string>
     <string name="view_chapters">មើលភាគ</string>
     <string name="all_files_permission_required">ត្រូវការការអនុញ្ញាត</string>
-    <string name="external_storage_permission_notice">តាឈិយ៉ូមិJ2K ត្រូវការaccessរាល់ហ្វល់ទាំងអស់នៅក្នុងអ៊េនដ្រយដ៏១១ដើម្បីទាញយកភាគ បង្កើតbackupsដោយស្វ័យប្រវត្ត និងអានម៊េងហ្គាដែលមានស្រាប់នៅក្នុងទូរសព្ទ។
+    <string name="external_storage_permission_notice">តាឈិយ៉ូមិMK ត្រូវការaccessរាល់ហ្វល់ទាំងអស់នៅក្នុងអ៊េនដ្រយដ៏១១ដើម្បីទាញយកភាគ បង្កើតbackupsដោយស្វ័យប្រវត្ត និងអានម៊េងហ្គាដែលមានស្រាប់នៅក្នុងទូរសព្ទ។
 \n
 \nនៅអេក្រង់បន្ទាប់​ បើក \"អនុញ្ញាតឲ្យaccessដើម្បីគ្រប់គ្រងរាល់ហ្វាល់ទាំងអស់\"</string>
     <string name="manhwa">ត្លុកកូរ៉េ</string>
@@ -131,7 +131,7 @@
     <string name="artist">វិចិត្រករ</string>
     <string name="not_started">មិនទាន់ចាប់ផ្ដើម</string>
     <string name="read">អាន</string>
-    <string name="external_storage_download_notice">តាឈិយ៉ូមិJ2Kត្រូវការaccessរាល់ហ្វាល់ទាំងអស់ដើម្បីទាញយកភាគ ចុចត្រង់នេះបន្ទាប់មក \"អនុញ្ញាតឲ្យaccessដើម្បីគ្រប់គ្រងរាល់ហ្វាល់ទាំងអស់\"</string>
+    <string name="external_storage_download_notice">តាឈិយ៉ូមិMKត្រូវការaccessរាល់ហ្វាល់ទាំងអស់ដើម្បីទាញយកភាគ ចុចត្រង់នេះបន្ទាប់មក \"អនុញ្ញាតឲ្យaccessដើម្បីគ្រប់គ្រងរាល់ហ្វាល់ទាំងអស់\"</string>
     <string name="in_progress">កំពុងដំណើរការ</string>
     <string name="description">សង្ខេបរឿង</string>
     <string name="ascending">ឡើង</string>
