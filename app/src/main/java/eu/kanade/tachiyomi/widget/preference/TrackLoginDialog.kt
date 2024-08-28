@@ -3,7 +3,7 @@ package eu.kanade.tachiyomi.widget.preference
 import android.os.Bundle
 import android.view.View
 import androidx.annotation.StringRes
-import br.com.simplepass.loadingbutton.animatedDrawables.ProgressType
+import com.github.leandroborgesferreira.loadingbutton.animatedDrawables.ProgressType
 import eu.kanade.tachiyomi.R
 import eu.kanade.tachiyomi.data.track.TrackManager
 import eu.kanade.tachiyomi.data.track.TrackService
