@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace = "com.github.florent37.viewtooltip"
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    compileOnly 'androidx.appcompat:appcompat:1.0.2'
+}
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'viewtooltip'
+    orgName = 'florent37'
+
+    publishedGroupId = 'com.github.florent37'
+    libraryName = 'ViewTooltip'
+    artifact = 'viewtooltip'
+
+    libraryDescription = 'ViewTooltip'
+
+    siteUrl = 'https://github.com/florent37/ViewTooltip'
+    gitUrl = 'https://github.com/florent37/ViewTooltip.git'
+
+    libraryVersion = 1
+
+    developerId = 'florent37'
+    developerName = 'florent37'
+    developerEmail = 'champigny.florent@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+/*apply from: rootProject.file('gradle/install-v1.gradle')
+apply from: rootProject.file('gradle/bintray-android-v1.gradle')*/
