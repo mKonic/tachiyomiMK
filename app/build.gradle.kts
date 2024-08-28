@@ -7,7 +7,7 @@ plugins {
     id(Plugins.kotlinParcelize)
     id(Plugins.kotlinSerialization)
     id("com.google.android.gms.oss-licenses-plugin")
-    id(Plugins.googleServices) apply false
+    id(Plugins.googleServices) apply true
     id("com.google.firebase.crashlytics")
 }
 
