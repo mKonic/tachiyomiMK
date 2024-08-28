@@ -67,11 +67,11 @@ android {
 
     buildTypes {
         getByName("debug") {
-            applicationIdSuffix = ".debugJ2K"
+            applicationIdSuffix = ".debugMK"
             versionNameSuffix = "-d${getCommitCount()}"
         }
         getByName("release") {
-            applicationIdSuffix = ".j2k"
+            applicationIdSuffix = ".mk"
             isShrinkResources = true
             isMinifyEnabled = true
             proguardFiles("proguard-android-optimize.txt", "proguard-rules.pro")
@@ -136,6 +136,7 @@ dependencies {
     implementation("com.google.android.material:compose-theme-adapter-3:1.1.1")
     implementation("androidx.compose.material:material-icons-extended:1.6.8")
     implementation("androidx.compose.ui:ui-tooling-preview:1.6.8")
+    implementation(project(":viewtooltip"))
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.8")
     implementation("com.google.accompanist:accompanist-webview:0.30.1")
     implementation("androidx.glance:glance-appwidget:1.1.0")
@@ -267,7 +268,6 @@ dependencies {
     implementation("com.github.chrisbanes:PhotoView:2.3.0")
     implementation("com.github.tachiyomiorg:DirectionalViewPager:1.0.0")
     //implementation("com.github.florent37:viewtooltip:1.2.2")
-    implementation(project(":viewtooltip"))
     implementation("com.getkeepsafe.taptargetview:taptargetview:1.13.3")
 
     // Conductor
