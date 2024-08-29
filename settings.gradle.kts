@@ -7,4 +7,4 @@ pluginManagement {
 }
 
 rootProject.name = "TachiyomiMK"
-include(":app", ":viewtooltip")
+include(":app", ":libraries:viewtooltip")
