@@ -7,7 +7,7 @@ plugins {
     id(Plugins.kotlinParcelize)
     id(Plugins.kotlinSerialization)
     id("com.google.android.gms.oss-licenses-plugin")
-    id(Plugins.googleServices) apply true
+    id(Plugins.googleServices) apply false
     id("com.google.firebase.crashlytics")
 }
 
@@ -136,7 +136,7 @@ dependencies {
     implementation("com.google.android.material:compose-theme-adapter-3:1.1.1")
     implementation("androidx.compose.material:material-icons-extended:1.6.8")
     implementation("androidx.compose.ui:ui-tooling-preview:1.6.8")
-    implementation(project(":viewtooltip"))
+    implementation(project(":libraries:viewtooltip"))
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.8")
     implementation("com.google.accompanist:accompanist-webview:0.30.1")
     implementation("androidx.glance:glance-appwidget:1.1.0")

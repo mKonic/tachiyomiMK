@@ -118,6 +118,11 @@ class LibraryUpdateNotifier(private val context: Context) {
                     context.getString(R.string.open_log),
                     pendingIntent,
                 )
+                addAction(
+                    R.drawable.ic_file_open_24dp,
+                    context.getString(R.string.retry_failed),
+                    pendingIntent,
+                )
             }
                 .build(),
         )
